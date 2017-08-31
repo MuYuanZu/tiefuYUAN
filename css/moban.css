@@ -103,13 +103,19 @@ nav{
 	letter-spacing:1px;
 }
 .logoin{
-	margin: 20px auto;
+	margin: 45px auto;
 	height: 32px;
 	display: flex;
     align-items: center;
 }
 .logoin img,.logoin span{
 	margin-left: 5px;
+}
+.logoin span{
+	color: #999;
+}
+.logoin span:last-of-type{
+	color: #462327;
 }
 .logoin img{
 	width: 32px;
@@ -125,6 +131,10 @@ nav{
 }
 .logo2{
 	height: 88px;
+}
+.logo2>img{
+	width: 330px;
+	height: 90px;
 }
 .bottom{
 	margin-top: 45px;
