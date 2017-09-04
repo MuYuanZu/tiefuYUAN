@@ -1,0 +1,128 @@
+.logoin a{
+	color: #999;
+}
+main{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.banner{
+	width: 100%;
+	height: 520px;
+}
+.banner>img{
+	display: block;
+	width: 100%;
+	height: 100%;
+
+}
+.fengek{
+	width: 100%;
+	height: 241px;
+	overflow: hidden;
+}
+.pic{
+	width: 334px;
+	height: 67px;
+	background: url('../../img/lu9.jpg') no-repeat center center;
+	margin: 72px auto 0;
+}
+.part{
+	width: 100%;
+	height: 2034px;
+	margin-bottom: 167px;
+}
+.part>ul{
+	width: 1130px;
+	height: 100%;
+	margin: 0 auto;
+}
+.part>ul>li{
+	width: 100%;
+	height: 339px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+}
+.left{
+	width: 553px;
+	height: 339px;
+}
+.part>img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.right{
+	width: 554px;
+	height: 339px;
+}
+.a1{
+	background: url('../../img/lu16.jpg') no-repeat center center;
+}
+.a2{
+	background: url('../../img/lu17.jpg') no-repeat center center;
+}
+.a3{
+	background: url('../../img/lu18.jpg') no-repeat center center;
+}
+.a4{
+	background: url('../../img/lu19.jpg') no-repeat center center;
+}
+.a5{
+	background: url('../../img/lu20.jpg') no-repeat center center;
+}
+.a6{
+	background: url('../../img/lu21.jpg') no-repeat center center;
+}
+.word{
+	width: 437px;
+	height: 170px;
+	margin-top: 114px;
+	padding-left: 22px;
+	line-height: 30px;
+	font-size: 14px;
+}
+.word1{
+	width: 444px;
+	height: 146px;
+	margin-top: 126px;
+	line-height: 32px;
+	font-size: 14px;
+	text-align: right;
+	margin-left: 108px;
+}
+.word2{
+	width: 438px;
+	height: 163px;
+	margin-top: 120px;
+	line-height: 30px;
+	font-size: 14px;
+	padding-left: 22px;
+}
+.word3{
+	width: 444px;
+	height: 199px;
+	margin-top: 101px;
+	margin-left: 107px;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: right;
+}
+.word4{
+	width: 446px;
+	height: 198px;
+	margin-top: 96px;
+	padding-left: 22px;
+	line-height: 30px;
+	font-size: 14px;
+}
+.word5{
+	width: 335px;
+	height: 114px;
+	margin-top: 143px;
+	margin-left: 216px;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: right;
+}
