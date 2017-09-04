@@ -68,10 +68,8 @@ nav{
 	margin-right: 2px;
 	opacity: 0;
 }
-.daohang>a:nth-child(5),.daohang>a:nth-child(5) span{
-	color: #E8C2A9;
-	opacity: 1;
-}
+
+
 .daohang a:hover span{
 	opacity: 1;
 }
@@ -92,12 +90,8 @@ nav{
 	width: 120px;
 	height: 48px;
 }
-.fenye h1{
-	font-size: 28px;
-	font-family: "仿宋";
-}
 .fenye h2{
-	margin: 10px 0;
+	margin: 12px 0;
 	text-transform: uppercase;
 	font-size: 12px;
 	letter-spacing:1px;
@@ -199,4 +193,8 @@ nav{
 }
 .bott>h1:last-child{
 	margin-top: 15px;
+}
+.daohang .active{
+	color: #E8C2A9;
+	opacity: 1;
 }
