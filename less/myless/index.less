@@ -1,0 +1,201 @@
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+body{
+	background: #d5c9bd;
+}
+@color:#462327; 
+.content-fuld{
+	width: 100%;
+	.banner{
+		height: 650px;
+		position: relative;
+		ul{
+			width: 100%;
+			height: 100%;
+			li{	
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top:0;
+				left: 0;
+				transition:.3s;
+				background: url('../../image/myimg/banner0.jpg') center center no-repeat /cover;
+			}
+			
+		}
+		>div{
+			width: 90px;
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 20px;
+			margin: 0 auto;
+			overflow: hidden;
+				>div{
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				background: #fff;
+				float: left;
+				}
+				>div:nth-child(2){
+					margin:0 30px;
+				}
+		}
+
+		>section{
+			width: 33px;
+			height: 63px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			margin: auto 0;
+			cursor: pointer;
+		}
+		.left{
+			left: 330px;
+		}
+		.right{
+			right: 330px;
+		}
+	}
+}
+
+// banner结束
+.content-first{
+	background: url('../../image/myimg/selcet.jpg') center center no-repeat /cover;
+	height: 691px;
+	width: 100%;
+}
+.mian{
+	margin-top: 146px;
+	margin-bottom: 59px;
+	>img{
+		margin: auto;
+	}
+}
+.content{
+	width: 1200px;
+	padding:38px 42px;
+	box-sizing: border-box;
+	margin: auto;
+	position: relative;
+	background: #fff;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	box-shadow:0 0 10px 10px rgba(0,0,0,0.3);
+	margin-bottom: 40px;
+	&:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	>div{
+		float: left;
+		&:nth-child(1){
+			
+		}
+		&:nth-child(2){
+			margin-left: 155px;
+			width: 420px;
+			height: 474px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			>img{
+				height: 230px;
+			}
+		}
+	}
+	>section{
+		position: absolute;
+		right: 0;
+		bottom:0;
+	}
+
+}
+.letter{
+		margin-top:40px;
+		width: 590px;
+		text-align: center;
+		line-height: 30px;		
+		margin: auto;
+		position: relative;
+		>div{
+			position: absolute;
+			top:5px;
+			left:20px;
+			width: 7px;
+			height: 22px;
+			background: #f34947;
+		}
+	}
+
+	.content-seccond{
+	background: url('../../image/myimg/selcet2.jpg') center center no-repeat /cover;
+	height: 691px;
+	width: 100%;
+}
+
+.last-con{
+	position: relative;
+	width: 1200px;
+	margin: auto;
+	height: 399px;
+	margin-bottom: 200px;
+	>div{
+		width:1000px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		>div{
+
+			background: #fff;
+			width: 33%;
+			box-sizing: border-box;
+			padding-top: 40px;
+			.letter-img{
+				>img{
+					margin:auto;
+				}
+			}
+			div:nth-child(2){
+				margin-top:30px;
+				text-align: center;
+				color: @color;
+			}
+
+	}
+}
+}
+.pos-img{
+	width: 280px;
+	height: 281px;
+	margin: auto;
+	position: relative;
+	img{
+		position: absolute;
+	}
+}
+.i1{
+	top:60px;
+	left: 16px;
+}
+.i2{
+	top:70px;
+	left: -40px;
+}
+.i3{
+	top:70px;
+	left: 40px;
+}

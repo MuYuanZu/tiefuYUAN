@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+body {
+  background: #d5c9bd;
+}
+.content-fuld {
+  width: 100%;
+}
+.content-fuld .banner {
+  height: 650px;
+  position: relative;
+}
+.content-fuld .banner ul {
+  width: 100%;
+  height: 100%;
+}
+.content-fuld .banner ul li {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: .3s;
+  background: url('../../image/myimg/banner0.jpg') center center no-repeat / cover;
+}
+.content-fuld .banner > div {
+  width: 90px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content-fuld .banner > div > div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff;
+  float: left;
+}
+.content-fuld .banner > div > div:nth-child(2) {
+  margin: 0 30px;
+}
+.content-fuld .banner > section {
+  width: 33px;
+  height: 63px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  cursor: pointer;
+}
+.content-fuld .banner .left {
+  left: 330px;
+}
+.content-fuld .banner .right {
+  right: 330px;
+}
+.content-first {
+  background: url('../../image/myimg/selcet.jpg') center center no-repeat / cover;
+  height: 691px;
+  width: 100%;
+}
+.mian {
+  margin-top: 146px;
+  margin-bottom: 59px;
+}
+.mian > img {
+  margin: auto;
+}
+.content {
+  width: 1200px;
+  padding: 38px 42px;
+  box-sizing: border-box;
+  margin: auto;
+  position: relative;
+  background: #fff;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 40px;
+}
+.content:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.content > div {
+  float: left;
+}
+.content > div:nth-child(2) {
+  margin-left: 155px;
+  width: 420px;
+  height: 474px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content > div:nth-child(2) > img {
+  height: 230px;
+}
+.content > section {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.letter {
+  margin-top: 40px;
+  width: 590px;
+  text-align: center;
+  line-height: 30px;
+  margin: auto;
+  position: relative;
+}
+.letter > div {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  width: 7px;
+  height: 22px;
+  background: #f34947;
+}
+.content-seccond {
+  background: url('../../image/myimg/selcet2.jpg') center center no-repeat / cover;
+  height: 691px;
+  width: 100%;
+}
+.last-con {
+  position: relative;
+  width: 1200px;
+  margin: auto;
+  height: 399px;
+  margin-bottom: 200px;
+}
+.last-con > div {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.last-con > div > div {
+  background: #fff;
+  width: 33%;
+  box-sizing: border-box;
+  padding-top: 40px;
+}
+.last-con > div > div .letter-img > img {
+  margin: auto;
+}
+.last-con > div > div div:nth-child(2) {
+  margin-top: 30px;
+  text-align: center;
+  color: #462327;
+}
+.pos-img {
+  width: 280px;
+  height: 281px;
+  margin: auto;
+  position: relative;
+}
+.pos-img img {
+  position: absolute;
+}
+.i1 {
+  top: 60px;
+  left: 16px;
+}
+.i2 {
+  top: 70px;
+  left: -40px;
+}
+.i3 {
+  top: 70px;
+  left: 40px;
+}
