@@ -1,0 +1,110 @@
+.logoin a{
+	color: #999;
+}
+main{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.banner{
+	width: 100%;
+	height: 520px;
+}
+.banner>img{
+	display: block;
+	width: 100%;
+	height: 100%;
+
+}
+.part{
+	width: 100%;
+	height: 911px;
+}
+.fengefu{
+	width: 199px;
+	height: 54px;
+	background: url('../../img/lu6.jpg') no-repeat center center;
+	margin: 70px auto 0;
+}
+.up{
+	width: 63px;
+	height: 24px;
+	margin-left: 67px;
+}
+.up>span,.up>img{
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+
+}
+.down{
+	width: 73px;
+	height: 18px;
+	font-size: 18px;
+	margin: 5px 0 0 63px;
+}
+.content{
+	width: 939px;
+	height: 787px;
+	margin: 80px auto 0;
+}
+.pic{
+	width: 100%;
+	height: 443px;
+}
+.pic>img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.word{
+	width: 100%;
+	height: 334px;
+	font-size: 13px;
+	padding-top: 47px;
+	color: #959595;
+	line-height: 25px;
+}
+.knowledge{
+	width: 992px;
+	height: 48px;
+	margin: 108px auto 0;
+	border-top: 1px solid #97adb6;
+	border-bottom: 1px solid #97adb6;
+}
+.content1{
+	width: 1000px;
+	height: 560px;
+	margin: 80px auto 0;
+}
+.leftb{
+	width: 13px;
+	height: 17px;
+	background: url('../../img/lu7.png') no-repeat center center;
+	margin-top: 17px;
+	margin-left: 39px;
+	float: left;
+}
+.knowledge .w1{
+	float: left;
+	margin-top: 15px;
+	margin-left: 21px;
+	font-size: 15px;
+}
+.rightb{
+	width: 11px;
+	height: 14px;
+	background: url('../../img/lu8.png') no-repeat center center;
+	margin-top: 15px;
+	margin-left: 27px;
+	float: left;
+}
+.knowledge .w2{
+	float: left;
+	margin-top: 15px;
+	margin-left: 547px;
+	font-size: 15px;
+}
+
+
